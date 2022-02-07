@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Øvelse 2</title>
+  </head>
+  <body>
+    <script>
+      // Jeg definerer de variable, jeg har med at gøre. Nemlig bredde og længde.
+      let længde = 3;
+
+      let bredde = 5;
+
+      let resultat;
+
+      //  Jeg definerer hvad arealet er, ved at gange længde og bredde.
+      let areal = længde * bredde;
+
+      //   Hvis arealet er mindre end 100, er det for lille
+
+      if (areal < 100) {
+        console.log('Arealet er for lille');
+
+        //    Er arealet mindre end 200 (altså mellem 100 og 200,) Så er det ok.
+      } else if (areal < 200) {
+        console.log('Arealet er ok');
+
+        //   Hvis arealet er større end 200 altså ikke er en del af "ok", så er det for stort
+      } else {
+        resultat = 'Arealet er for stort';
+      }
+      console.log('resultat');
+    </script>
+  </body>
+</html>
